@@ -1,9 +1,9 @@
 {
   "version": 2,
   "builds": [
-    { "src": "hijri_api_server.py", "use": "@vercel/python" }
+    { "src": "api/index.py", "use": "@vercel/python" }
   ],
   "routes": [
-    { "src": "/(.*)", "dest": "hijri_api_server.py" }
+    { "src": "/(.*)", "dest": "api/index.py" }
   ]
 }

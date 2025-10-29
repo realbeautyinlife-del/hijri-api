@@ -2,5 +2,3 @@ fastapi
 uvicorn
 requests
 pydantic
-datetime
-typing
